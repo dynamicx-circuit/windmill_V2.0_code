@@ -1,0 +1,3 @@
+/home/kade/rm_project/FanSlaveBoard/FanSlave_code/cmake-build-debug/CMakeFiles/FanSlave_code.elf.dir
+/home/kade/rm_project/FanSlaveBoard/FanSlave_code/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kade/rm_project/FanSlaveBoard/FanSlave_code/cmake-build-debug/CMakeFiles/rebuild_cache.dir

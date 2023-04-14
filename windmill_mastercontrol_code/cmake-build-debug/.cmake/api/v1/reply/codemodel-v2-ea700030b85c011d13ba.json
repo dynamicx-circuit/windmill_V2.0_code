@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "windmill_mastercontrol_code",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "windmill_mastercontrol_code.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-windmill_mastercontrol_code.elf-Debug-926051d4375916496428.json",
+					"name" : "windmill_mastercontrol_code.elf",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code/cmake-build-debug",
+		"source" : "/home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
