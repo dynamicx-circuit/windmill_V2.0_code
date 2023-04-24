@@ -1,4 +1,4 @@
-/home/kade/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=/usr/bin/cc -DCMAKE_CXX_COMPILER=/usr/bin/c++ -G "CodeBlocks - Unix Makefiles" -S /home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code -B /home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code/cmake-build-debug
+/home/kade/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=/usr/bin/cc -DCMAKE_CXX_COMPILER=/usr/bin/c++ -G "CodeBlocks - Unix Makefiles" -S /home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code -B /home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code/cmake-build-debug
 -- The C compiler identification is GNU 9.2.1
 -- The CXX compiler identification is GNU 9.2.1
 -- The ASM compiler identification is GNU
@@ -16,4 +16,4 @@
 -- Minimal optimization, debug info included
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code/cmake-build-debug
+-- Build files have been written to: /home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code/cmake-build-debug

@@ -1202,8 +1202,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code/cmake-build-debug",
-		"source" : "/home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code"
+		"build" : "/home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code/cmake-build-debug",
+		"source" : "/home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code"
 	},
 	"version" : 
 	{

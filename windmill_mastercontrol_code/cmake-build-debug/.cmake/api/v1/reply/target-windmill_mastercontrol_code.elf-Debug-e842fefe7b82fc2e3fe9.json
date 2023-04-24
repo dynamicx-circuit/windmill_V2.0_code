@@ -148,39 +148,39 @@
 			[
 				{
 					"backtrace" : 9,
-					"path" : "/home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code/Core/Inc"
+					"path" : "/home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code/Core/Inc"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "/home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code/Drivers/STM32F1xx_HAL_Driver/Inc"
+					"path" : "/home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code/Drivers/STM32F1xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "/home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
+					"path" : "/home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "/home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+					"path" : "/home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "/home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code/Drivers/CMSIS/Include"
+					"path" : "/home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code/Drivers/CMSIS/Include"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "/home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code/function"
+					"path" : "/home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code/function"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "/home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code/motor_control"
+					"path" : "/home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code/motor_control"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "/home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code/ws2812"
+					"path" : "/home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code/ws2812"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "/home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code/oled"
+					"path" : "/home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code/oled"
 				}
 			],
 			"language" : "C",
@@ -301,39 +301,39 @@
 			[
 				{
 					"backtrace" : 9,
-					"path" : "/home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code/Core/Inc"
+					"path" : "/home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code/Core/Inc"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "/home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code/Drivers/STM32F1xx_HAL_Driver/Inc"
+					"path" : "/home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code/Drivers/STM32F1xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "/home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
+					"path" : "/home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "/home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+					"path" : "/home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "/home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code/Drivers/CMSIS/Include"
+					"path" : "/home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code/Drivers/CMSIS/Include"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "/home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code/function"
+					"path" : "/home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code/function"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "/home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code/motor_control"
+					"path" : "/home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code/motor_control"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "/home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code/ws2812"
+					"path" : "/home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code/ws2812"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "/home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code/oled"
+					"path" : "/home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code/oled"
 				}
 			],
 			"language" : "ASM",
@@ -358,7 +358,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=/home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code/cmake-build-debug/windmill_mastercontrol_code.map",
+				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=/home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code/cmake-build-debug/windmill_mastercontrol_code.map",
 				"role" : "flags"
 			},
 			{
@@ -383,7 +383,7 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "/home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code/STM32F103C8TX_FLASH.ld",
+				"fragment" : "/home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code/STM32F103C8TX_FLASH.ld",
 				"role" : "flags"
 			}
 		],

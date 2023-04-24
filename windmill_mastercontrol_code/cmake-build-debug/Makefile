@@ -57,10 +57,10 @@ RM = /home/kade/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code
+CMAKE_SOURCE_DIR = /home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code/cmake-build-debug
+CMAKE_BINARY_DIR = /home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code/cmake-build-debug/CMakeFiles /home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code/cmake-build-debug/CMakeFiles /home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

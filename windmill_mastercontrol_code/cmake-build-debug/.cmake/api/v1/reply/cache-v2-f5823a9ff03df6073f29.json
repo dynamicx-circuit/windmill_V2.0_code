@@ -163,7 +163,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code/cmake-build-debug"
+			"value" : "/home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -735,7 +735,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -795,7 +795,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code"
+			"value" : "/home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1315,7 +1315,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code/cmake-build-debug"
+			"value" : "/home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code/cmake-build-debug"
 		},
 		{
 			"name" : "windmill_mastercontrol_code_IS_TOP_LEVEL",
@@ -1339,7 +1339,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code"
+			"value" : "/home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code"
 		}
 	],
 	"kind" : "cache",

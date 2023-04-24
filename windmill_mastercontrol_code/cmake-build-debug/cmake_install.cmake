@@ -1,4 +1,4 @@
-# Install script for directory: /home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code
+# Install script for directory: /home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

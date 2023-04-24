@@ -101,7 +101,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/kade/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/cmake/linux/x64/share/cmake-3.25/Modules/Internal/FeatureTesting.cmake"
   "/home/kade/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Generic.cmake"
   "/home/kade/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/cmake/linux/x64/share/cmake-3.25/Modules/ProcessorCount.cmake"
-  "/home/kade/rm_project/Windmill_V2.0/windmill_mastercontrol/windmill_mastercontrol_code/CMakeLists.txt"
+  "/home/kade/rm_project/windmill_V2.0_code/windmill_mastercontrol_code/CMakeLists.txt"
   "CMakeFiles/3.25.2/CMakeASMCompiler.cmake"
   "CMakeFiles/3.25.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.25.2/CMakeCXXCompiler.cmake"
