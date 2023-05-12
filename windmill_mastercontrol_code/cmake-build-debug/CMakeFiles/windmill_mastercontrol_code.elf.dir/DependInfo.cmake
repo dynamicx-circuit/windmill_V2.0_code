@@ -28,8 +28,8 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "D:/rmbuild/windmill_V2.0_code/windmill_mastercontrol_code/Drivers/CMSIS/Include"
   "D:/rmbuild/windmill_V2.0_code/windmill_mastercontrol_code/function"
   "D:/rmbuild/windmill_V2.0_code/windmill_mastercontrol_code/motor_control"
-  "D:/rmbuild/windmill_V2.0_code/windmill_mastercontrol_code/ws2812"
   "D:/rmbuild/windmill_V2.0_code/windmill_mastercontrol_code/oled"
+  "D:/rmbuild/windmill_V2.0_code/windmill_mastercontrol_code/ws2812"
   )
 
 # The set of dependency files which are needed:

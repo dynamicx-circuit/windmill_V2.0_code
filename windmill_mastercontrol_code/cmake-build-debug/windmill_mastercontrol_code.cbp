@@ -34,8 +34,8 @@
 					<Add directory="D:/rmbuild/windmill_V2.0_code/windmill_mastercontrol_code/Drivers/CMSIS/Include"/>
 					<Add directory="D:/rmbuild/windmill_V2.0_code/windmill_mastercontrol_code/function"/>
 					<Add directory="D:/rmbuild/windmill_V2.0_code/windmill_mastercontrol_code/motor_control"/>
-					<Add directory="D:/rmbuild/windmill_V2.0_code/windmill_mastercontrol_code/ws2812"/>
 					<Add directory="D:/rmbuild/windmill_V2.0_code/windmill_mastercontrol_code/oled"/>
+					<Add directory="D:/rmbuild/windmill_V2.0_code/windmill_mastercontrol_code/ws2812"/>
 					<Add directory="d:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="d:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="d:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -67,8 +67,8 @@
 					<Add directory="D:/rmbuild/windmill_V2.0_code/windmill_mastercontrol_code/Drivers/CMSIS/Include"/>
 					<Add directory="D:/rmbuild/windmill_V2.0_code/windmill_mastercontrol_code/function"/>
 					<Add directory="D:/rmbuild/windmill_V2.0_code/windmill_mastercontrol_code/motor_control"/>
-					<Add directory="D:/rmbuild/windmill_V2.0_code/windmill_mastercontrol_code/ws2812"/>
 					<Add directory="D:/rmbuild/windmill_V2.0_code/windmill_mastercontrol_code/oled"/>
+					<Add directory="D:/rmbuild/windmill_V2.0_code/windmill_mastercontrol_code/ws2812"/>
 					<Add directory="d:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="d:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="d:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
