@@ -12,6 +12,7 @@ unsigned int times_can_recive = 0;
 unsigned int times_can_tx = 0;
 unsigned int times_rand;
 unsigned int times_hit = 0;
+unsigned int times_reset = 0;
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
     if (htim == &htim3) {
@@ -19,6 +20,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
         times_can_recive++;
         times_can_tx++;
         times_hit++;
+        times_reset++;
     }
 
 }
@@ -93,4 +95,19 @@ unsigned int Get_Times_Hit() {
  */
 void Set_Times_Hit(unsigned int value) {
     times_hit = value;
+}
+
+/**
+
+ */
+unsigned int Get_Times_Reset() {
+    return times_reset;
+}
+
+/**
+ * …Ë÷√ ±º‰
+ * @param value
+ */
+void Set_Times_Reset(unsigned int value) {
+    times_reset = value;
 }

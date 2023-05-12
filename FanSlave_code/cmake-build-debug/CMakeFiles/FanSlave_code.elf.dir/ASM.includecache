@@ -6,5 +6,5 @@
 
 #IncludeRegexTransform: 
 
-/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Core/Startup/startup_stm32f103c8tx.s
+D:/rmbuild/windmill_V2.0_code/FanSlave_code/Core/Startup/startup_stm32f103c8tx.s
 

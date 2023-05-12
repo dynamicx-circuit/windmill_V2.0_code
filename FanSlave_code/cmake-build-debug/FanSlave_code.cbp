@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/cmake-build-debug"/>
+				<Option working_dir="D:/rmbuild/windmill_V2.0_code/FanSlave_code/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/home/kade/rm_project/FanSlaveBoard/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/kade/rm_project/FanSlaveBoard/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/home/kade/rm_project/FanSlaveBoard/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/home/kade/rm_project/FanSlaveBoard/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/rmbuild/windmill_V2.0_code/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/rmbuild/windmill_V2.0_code/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/rmbuild/windmill_V2.0_code/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/rmbuild/windmill_V2.0_code/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FanSlave_code.elf">
-				<Option output="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/cmake-build-debug/FanSlave_code.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/cmake-build-debug"/>
+				<Option output="D:/rmbuild/windmill_V2.0_code/FanSlave_code/cmake-build-debug/FanSlave_code.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/rmbuild/windmill_V2.0_code/FanSlave_code/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -27,30 +27,30 @@
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F103xB"/>
-					<Add directory="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Core/Inc"/>
-					<Add directory="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc"/>
-					<Add directory="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
-					<Add directory="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/CMSIS/Include"/>
-					<Add directory="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/function"/>
-					<Add directory="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/ws2812"/>
-					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1"/>
-					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
-					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/backward"/>
-					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include"/>
-					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
-					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include"/>
+					<Add directory="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Core/Inc"/>
+					<Add directory="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/CMSIS/Include"/>
+					<Add directory="D:/rmbuild/windmill_V2.0_code/FanSlave_code/function"/>
+					<Add directory="D:/rmbuild/windmill_V2.0_code/FanSlave_code/ws2812"/>
+					<Add directory="d:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/home/kade/rm_project/FanSlaveBoard/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 FanSlave_code.elf"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/kade/rm_project/FanSlaveBoard/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/home/kade/rm_project/FanSlaveBoard/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/home/kade/rm_project/FanSlaveBoard/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/rmbuild/windmill_V2.0_code/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 FanSlave_code.elf"/>
+					<CompileFile command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/rmbuild/windmill_V2.0_code/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/rmbuild/windmill_V2.0_code/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/rmbuild/windmill_V2.0_code/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FanSlave_code.elf/fast">
-				<Option output="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/cmake-build-debug/FanSlave_code.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/cmake-build-debug"/>
+				<Option output="D:/rmbuild/windmill_V2.0_code/FanSlave_code/cmake-build-debug/FanSlave_code.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/rmbuild/windmill_V2.0_code/FanSlave_code/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -58,358 +58,346 @@
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F103xB"/>
-					<Add directory="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Core/Inc"/>
-					<Add directory="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc"/>
-					<Add directory="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
-					<Add directory="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/CMSIS/Include"/>
-					<Add directory="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/function"/>
-					<Add directory="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/ws2812"/>
-					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1"/>
-					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
-					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/backward"/>
-					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include"/>
-					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
-					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include"/>
+					<Add directory="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Core/Inc"/>
+					<Add directory="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/CMSIS/Include"/>
+					<Add directory="D:/rmbuild/windmill_V2.0_code/FanSlave_code/function"/>
+					<Add directory="D:/rmbuild/windmill_V2.0_code/FanSlave_code/ws2812"/>
+					<Add directory="d:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/home/kade/rm_project/FanSlaveBoard/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 FanSlave_code.elf/fast"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/kade/rm_project/FanSlaveBoard/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/home/kade/rm_project/FanSlaveBoard/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/home/kade/rm_project/FanSlaveBoard/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/rmbuild/windmill_V2.0_code/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 FanSlave_code.elf/fast"/>
+					<CompileFile command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/rmbuild/windmill_V2.0_code/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/rmbuild/windmill_V2.0_code/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/rmbuild/windmill_V2.0_code/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/cmake-build-debug"/>
+				<Option working_dir="D:/rmbuild/windmill_V2.0_code/FanSlave_code/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/home/kade/rm_project/FanSlaveBoard/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/kade/rm_project/FanSlaveBoard/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/home/kade/rm_project/FanSlaveBoard/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/home/kade/rm_project/FanSlaveBoard/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/rmbuild/windmill_V2.0_code/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/rmbuild/windmill_V2.0_code/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/rmbuild/windmill_V2.0_code/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/rmbuild/windmill_V2.0_code/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/cmake-build-debug"/>
+				<Option working_dir="D:/rmbuild/windmill_V2.0_code/FanSlave_code/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/home/kade/rm_project/FanSlaveBoard/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/kade/rm_project/FanSlaveBoard/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/home/kade/rm_project/FanSlaveBoard/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/home/kade/rm_project/FanSlaveBoard/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/rmbuild/windmill_V2.0_code/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/rmbuild/windmill_V2.0_code/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/rmbuild/windmill_V2.0_code/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/win-builds/bin/mingw32-make.exe -f &quot;D:/rmbuild/windmill_V2.0_code/FanSlave_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Core/Inc/dma.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Core/Inc/dma.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Core/Inc/gpio.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Core/Inc/gpio.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Core/Inc/main.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Core/Inc/main.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Core/Inc/spi.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Core/Inc/spi.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Core/Inc/stm32f1xx_hal_conf.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Core/Inc/stm32f1xx_hal_conf.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Core/Inc/stm32f1xx_it.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Core/Inc/stm32f1xx_it.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Core/Inc/tim.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Core/Inc/tim.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Core/Src/dma.c">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Core/Src/dma.c">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Core/Src/gpio.c">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Core/Src/gpio.c">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Core/Src/main.c">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Core/Src/main.c">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Core/Src/spi.c">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Core/Src/spi.c">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Core/Src/stm32f1xx_hal_msp.c">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Core/Src/stm32f1xx_hal_msp.c">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Core/Src/stm32f1xx_it.c">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Core/Src/stm32f1xx_it.c">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Core/Src/syscalls.c">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Core/Src/syscalls.c">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Core/Src/sysmem.c">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Core/Src/sysmem.c">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Core/Src/system_stm32f1xx.c">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Core/Src/system_stm32f1xx.c">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Core/Src/tim.c">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Core/Src/tim.c">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Core/Startup/startup_stm32f103c8tx.s">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Core/Startup/startup_stm32f103c8tx.s">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/CMSIS/Device/ST/STM32F1xx/License.md">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/CMSIS/Device/ST/STM32F1xx/License.md">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/CMSIS/Include/cmsis_armcc.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/CMSIS/Include/cmsis_armcc.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/CMSIS/Include/cmsis_armclang.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/CMSIS/Include/cmsis_armclang.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/CMSIS/Include/cmsis_compiler.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/CMSIS/Include/cmsis_compiler.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/CMSIS/Include/cmsis_gcc.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/CMSIS/Include/cmsis_gcc.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/CMSIS/Include/cmsis_iccarm.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/CMSIS/Include/cmsis_iccarm.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/CMSIS/Include/cmsis_version.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/CMSIS/Include/cmsis_version.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/CMSIS/Include/core_armv8mbl.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/CMSIS/Include/core_armv8mbl.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/CMSIS/Include/core_armv8mml.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/CMSIS/Include/core_armv8mml.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/CMSIS/Include/core_cm0.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/CMSIS/Include/core_cm0.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/CMSIS/Include/core_cm0plus.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/CMSIS/Include/core_cm0plus.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/CMSIS/Include/core_cm1.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/CMSIS/Include/core_cm1.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/CMSIS/Include/core_cm23.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/CMSIS/Include/core_cm23.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/CMSIS/Include/core_cm3.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/CMSIS/Include/core_cm3.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/CMSIS/Include/core_cm33.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/CMSIS/Include/core_cm33.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/CMSIS/Include/core_cm4.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/CMSIS/Include/core_cm4.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/CMSIS/Include/core_cm7.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/CMSIS/Include/core_cm7.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/CMSIS/Include/core_sc000.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/CMSIS/Include/core_sc000.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/CMSIS/Include/core_sc300.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/CMSIS/Include/core_sc300.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/CMSIS/Include/mpu_armv7.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/CMSIS/Include/mpu_armv7.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/CMSIS/Include/mpu_armv8.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/CMSIS/Include/mpu_armv8.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/CMSIS/Include/tz_context.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/CMSIS/Include/tz_context.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/CMSIS/LICENSE.txt">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/CMSIS/LICENSE.txt">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/License.md">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/License.md">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/STM32F103C8TX_FLASH.ld">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/STM32F103C8TX_FLASH.ld">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/function/HX711.c">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/function/HX711.c">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/function/HX711.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/function/HX711.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/function/clock.c">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/function/clock.c">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/function/clock.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/function/clock.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/function/data_type_conversion.c">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/function/data_type_conversion.c">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/function/data_type_conversion.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/function/data_type_conversion.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/function/delay.c">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/function/delay.c">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/function/delay.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/function/delay.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/function/fsm.c">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/function/fsm.c">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/function/fsm.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/function/fsm.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/function/iic.c">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/ws2812/ws2812.c">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/function/iic.h">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/ws2812/ws2812.h">
 			<Option target="FanSlave_code.elf"/>
 		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/function/oled.c">
-			<Option target="FanSlave_code.elf"/>
-		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/function/oled.h">
-			<Option target="FanSlave_code.elf"/>
-		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/ws2812/ws2812.c">
-			<Option target="FanSlave_code.elf"/>
-		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/ws2812/ws2812.h">
-			<Option target="FanSlave_code.elf"/>
-		</Unit>
-		<Unit filename="/home/kade/rm_project/FanSlaveBoard/FanSlave_code/CMakeLists.txt">
+		<Unit filename="D:/rmbuild/windmill_V2.0_code/FanSlave_code/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

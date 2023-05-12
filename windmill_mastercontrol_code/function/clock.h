@@ -25,4 +25,8 @@ unsigned int Get_Times_Hit();
 
 void Set_Times_Hit(unsigned int value);
 
+unsigned int Get_Times_Reset();
+
+void Set_Times_Reset(unsigned int value);
+
 #endif //WINDMILL_MASTERCONTROL_CODE_CLOCK_H

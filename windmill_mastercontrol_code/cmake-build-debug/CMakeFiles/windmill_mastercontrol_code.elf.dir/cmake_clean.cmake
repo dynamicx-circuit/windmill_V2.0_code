@@ -58,6 +58,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/windmill_mastercontrol_code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj.d"
   "CMakeFiles/windmill_mastercontrol_code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
   "CMakeFiles/windmill_mastercontrol_code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj.d"
+  "CMakeFiles/windmill_mastercontrol_code.elf.dir/function/bsp_uart.c.obj"
+  "CMakeFiles/windmill_mastercontrol_code.elf.dir/function/bsp_uart.c.obj.d"
   "CMakeFiles/windmill_mastercontrol_code.elf.dir/function/clock.c.obj"
   "CMakeFiles/windmill_mastercontrol_code.elf.dir/function/clock.c.obj.d"
   "CMakeFiles/windmill_mastercontrol_code.elf.dir/function/communication.c.obj"
@@ -87,6 +89,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/windmill_mastercontrol_code.elf.dir/ws2812/ws2812.c.obj"
   "CMakeFiles/windmill_mastercontrol_code.elf.dir/ws2812/ws2812.c.obj.d"
   "windmill_mastercontrol_code.elf"
+  "windmill_mastercontrol_code.elf.manifest"
   "windmill_mastercontrol_code.elf.pdb"
 )
 

@@ -5,7 +5,6 @@
 #include "HX711.h"
 #include "main.h"
 #include "delay.h"
-#include "oled.h"
 
 #define delay_time 10
 

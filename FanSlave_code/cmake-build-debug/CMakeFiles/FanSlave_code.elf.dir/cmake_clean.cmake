@@ -58,13 +58,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/FanSlave_code.elf.dir/function/delay.c.obj.d"
   "CMakeFiles/FanSlave_code.elf.dir/function/fsm.c.obj"
   "CMakeFiles/FanSlave_code.elf.dir/function/fsm.c.obj.d"
-  "CMakeFiles/FanSlave_code.elf.dir/function/iic.c.obj"
-  "CMakeFiles/FanSlave_code.elf.dir/function/iic.c.obj.d"
-  "CMakeFiles/FanSlave_code.elf.dir/function/oled.c.obj"
-  "CMakeFiles/FanSlave_code.elf.dir/function/oled.c.obj.d"
   "CMakeFiles/FanSlave_code.elf.dir/ws2812/ws2812.c.obj"
   "CMakeFiles/FanSlave_code.elf.dir/ws2812/ws2812.c.obj.d"
   "FanSlave_code.elf"
+  "FanSlave_code.elf.manifest"
   "FanSlave_code.elf.pdb"
 )
 

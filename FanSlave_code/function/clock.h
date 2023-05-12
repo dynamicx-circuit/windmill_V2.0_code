@@ -10,4 +10,6 @@ unsigned int Get_Times_Flow();
 
 void Set_Times_Flow(unsigned int value);
 
+unsigned int rands(unsigned char nums);
+
 #endif //FANSLAVE_CODE_CLOCK_H

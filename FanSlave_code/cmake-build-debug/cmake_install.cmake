@@ -1,8 +1,8 @@
-# Install script for directory: /home/kade/rm_project/FanSlaveBoard/FanSlave_code
+# Install script for directory: D:/rmbuild/windmill_V2.0_code/FanSlave_code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/FanSlave_code")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kade/rm_project/FanSlaveBoard/FanSlave_code/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/rmbuild/windmill_V2.0_code/FanSlave_code/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

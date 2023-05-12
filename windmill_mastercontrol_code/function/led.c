@@ -5,10 +5,11 @@
 #include "led.h"
 #include "clock.h"
 #include "gpio.h"
+#include "usart.h"
 
 void led_twinkle(unsigned int GPIO_Pin) {
-  if (Get_Times() > 2000) {
-    LED_TOGGLE(GPIO_Pin);
-    Set_Times(0);
-  }
+    if (Get_Times() > 1000) {
+        LED_TOGGLE(GPIO_Pin);
+        Set_Times(0);
+    }
 }
