@@ -181,6 +181,8 @@ void AroundColor_Set(unsigned char leds[][24], unsigned int color, unsigned int 
 void CircleColor_Set(enum ws2812_circle_state_e state) {
     if (state == CIRCLE_HIT) {
         unsigned int sand_num = rands(10);
+//        unsigned int sand_num = 1;
+
         if (sand_num == 1) {
             for (int n = 1; n <= 10; n++) {
                 if (n == 1 || (n % 2) == 0) {
@@ -207,17 +209,11 @@ void CircleColor_Set(enum ws2812_circle_state_e state) {
             }
 
         }
-        HAL_TIM_PWM_Start_DMA(&htim4, TIM_CHANNEL_2, (uint32_t *) ws2812, (WS2812_LEN + 1) * 24);
-        HAL_Delay(30);
-        for (int i = 0; i < WS2812_LEN; ++i) {
-            SetSingleColor(ws2812[i], WS2812_OFF);
-        }
     } else if (state == CIRCLE_OFF) {
         for (int i = 0; i < WS2812_LEN; ++i) {
             SetSingleColor(ws2812[i], WS2812_OFF);
         }
-        HAL_TIM_PWM_Start_DMA(&htim4, TIM_CHANNEL_2, (uint32_t *) ws2812, (WS2812_LEN + 1) * 24);
-        HAL_Delay(20);
+
     } else if (state == CIRCLE_ON) {
         //先将所有灯关闭
         for (int i = 0; i < WS2812_LEN; ++i) {
@@ -240,11 +236,7 @@ void CircleColor_Set(enum ws2812_circle_state_e state) {
                 SetSingleColor(ws2812[i], color);
             }
         }
-        HAL_TIM_PWM_Start_DMA(&htim4, TIM_CHANNEL_2, (uint32_t *) ws2812, (WS2812_LEN + 1) * 24);
-        HAL_Delay(20);
-        for (int i = 0; i < WS2812_LEN; ++i) {
-            SetSingleColor(ws2812[i], WS2812_OFF);
-        }
+
     }
 }
 
@@ -279,11 +271,13 @@ void WS2812_ALL_OFF() {
     SetFlowBoardColor(WS2812_OFF, led_flow);
     DMA_CHANNEL_FLOW;
     HAL_Delay(10);
-    AroundColor_Set(ws2812, WS2812_OFF, WS2812_LEN, ALL);
+    CircleColor_Set(CIRCLE_OFF);
+    //AroundColor_Set(ws2812, WS2812_OFF, WS2812_LEN, ALL);
     DMA_CHANNEL_WS2812;
     HAL_Delay(10);
     CircleColor_Set(CIRCLE_OFF);
-
+    DMA_CHANNEL_CIRCLE;
+    HAL_Delay(10);
 }
 
 /**
@@ -299,8 +293,12 @@ void WS2812_Init() {
     //初始换四周的灯带
     AroundColor_Init(ws2812, WS2812_OFF, WS2812_LEN);
     DMA_CHANNEL_FLOW;
+    HAL_Delay(10);
     DMA_CHANNEL_WS2812;
+    HAL_Delay(10);
+
     DMA_CHANNEL_CIRCLE;
+    HAL_Delay(10);
 
 }
 
@@ -310,7 +308,7 @@ void WS2812_Init() {
 unsigned char spi_data[1] = {0};
 extern uint32_t init_kg;
 uint32_t kg = 0;
-unsigned char windmill_state = OFF;
+unsigned char windmill_state = READY_HIT;
 
 void WS2812_Load1() {
 //    SetFlowBoardColor(color, led_flow);
@@ -321,17 +319,9 @@ void WS2812_Load1() {
 
 //    SetSingleColor(ws2812[3],WS2812_RED);
     //DMA_CHANNEL_FLOW;
-    while (1) {
-        CircleColor_Set(CIRCLE_ON);
-        HAL_Delay(1000);
-        CircleColor_Set(CIRCLE_HIT);
-        HAL_Delay(1000);
-        CircleColor_Set(CIRCLE_OFF);
-        HAL_Delay(1000);
-
-
-    }
-
+    AroundColor_Set(ws2812, color, WS2812_LEN, ALL);
+    DMA_CHANNEL_CIRCLE;
+    HAL_Delay(10);
     // AroundColor_Set(ws2812, color, WS2812_LEN, DOWN);
     //while (1);
 }
@@ -360,13 +350,18 @@ void WS2812_Load() {
                 windmill_state = OFF;
                 break;
             case 0x8F:
-                CircleColor_Set(CIRCLE_ON);
                 HAL_GPIO_WritePin(GPIOA, GPIO_PIN_15, GPIO_PIN_SET);
-                AroundColor_Set(ws2812, color, WS2812_LEN, DOWN);
-                DMA_CHANNEL_WS2812;
-
                 LoadFlowColor(color);
                 DMA_CHANNEL_FLOW;
+                HAL_Delay(20);
+                CircleColor_Set(CIRCLE_ON);
+
+                DMA_CHANNEL_CIRCLE;
+                HAL_Delay(20);
+                Set_Times_Flow(0);
+                CircleColor_Set(CIRCLE_OFF);
+                AroundColor_Set(ws2812, color, WS2812_LEN, DOWN);
+                DMA_CHANNEL_WS2812;
                 windmill_state = READY_HIT;
                 break;
             case 0x80:
@@ -374,7 +369,6 @@ void WS2812_Load() {
                 break;
         }
         /*设置四周灯条的颜色*/
-        DMA_CHANNEL_WS2812;
     }
     //  OLED_ShowInt(0, 0, windmill_state);
     switch (windmill_state) {
@@ -399,7 +393,6 @@ void WS2812_Load() {
             //kg = HX711_ReadCount();
             if (HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_1) == GPIO_PIN_SET) {
                 windmill_state = HIT;
-
                 HAL_GPIO_WritePin(GPIOB, GPIO_PIN_2, GPIO_PIN_RESET);
 
             }
@@ -407,12 +400,15 @@ void WS2812_Load() {
         case HIT:
             /*被击中之后，所有灯都亮起来*/
             CircleColor_Set(CIRCLE_HIT);
+            DMA_CHANNEL_CIRCLE;
+            HAL_Delay(20);
             SetFlowBoardColor(color, led_flow);
             DMA_CHANNEL_FLOW;
             HAL_Delay(10);
             AroundColor_Set(ws2812, color, WS2812_LEN, ALL);
             DMA_CHANNEL_WS2812;
             HAL_Delay(10);
+
             HAL_GPIO_WritePin(GPIOB, GPIO_PIN_2, GPIO_PIN_SET);
             windmill_state = OFF;
 
